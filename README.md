@@ -16,12 +16,12 @@ Configuration Generator
 		   -r <template_file>	   file mode - override template file from csv with specified template filen
 	-h	help
 
-## [TEMPLATE] File e.g.(a1.1.tmpl)
+## [TEMPLATE](a1.1.tmpl)
 
-## [CONSTANT] File (constant.def)
+## [CONSTANT](constant.def)
 This file represents constant values that can be referenced in a tempalte file.
 
-## [VARIABLE] File (variable.def)
+## [VARIABLE](variable.def)
 This file represents declared variables that can be referenced in a tempalte file.  Each variable can be validated with a regular expression.
 
 ## Sript Modes
