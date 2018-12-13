@@ -17,9 +17,9 @@ Configuration Generator
 		-h			help
 
 ## [TEMPLATE](a1.1.tmpl)
-This file is the configuration.
+This file is the configuration.  This is a sample template file.
 
-      e.g. a1.1.tmpl
+      a1.1.tmpl
   
 Each template has a standard header.  The header
 maintains the file name, description, file last updated,
