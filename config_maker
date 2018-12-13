@@ -4,7 +4,7 @@
 # Last Updated by Ed Ruszkiewicz - 3/15/18
 #
 # Version 3.1 - Started Versioning
-# Version 3.1 - Added support for file mode overrite output file
+# Version 3.1 - Added support for file mode override output file
 # Version 3.3 - Added support for file mode template override - new 'r' command line switch	3/15/18
 
 use Getopt::Std;
