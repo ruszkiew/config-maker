@@ -14,7 +14,7 @@ Configuration Generator
 		    -o <file>		   file mode - send all configuration to specified output file
 		    -c			   file mode - concatenate output to existing file
 		    -r <template_file>	   file mode - override template file from csv with specified template filen
-		-h	help
+		-h			help
 
 ## [TEMPLATE](a1.1.tmpl)
 This file is the configuration.
