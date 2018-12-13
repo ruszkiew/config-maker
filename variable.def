@@ -1,3 +1,5 @@
+
+
 # FILE: variable.def
 # DESCRIPTION: Database of available variables with their possible values
 # LAST UPDATED: 05/27/03
@@ -6,6 +8,7 @@
 # RELEASE NOTES
 # 	v1.1 Fixed int_duplex regexpr		- Ed 05/27/03
 # 	v1.0 First draft of document		- Ed 04/18/03
+
 
 hostname              =	[a-z_A-Z_0-9|\_|\-]+
 legacy_hostname       =	.*
@@ -17,3 +20,4 @@ int_port              = 	\d{1,2}
 int_slot              = 	\d
 int_speed             = 	^10$|^100$|^1000$|^auto$
 int_vlan              = 	\d{1,3}
+
