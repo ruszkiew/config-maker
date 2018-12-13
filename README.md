@@ -39,17 +39,15 @@ This file represents declared variables that can be referenced in a tempalte fil
 
 ## Script Modes
 
-### Interactive
+### Interactive -i
 The script will run in interactive mode if no paramaters or options are passed.  The script will prompt the user for the device_id.  This is the same name as the template file.  The script will then prompt for values for the variables defined in the header of the template file.
 
-### Template
+### Template -t
 The script will run with the values defined for the variables in the template file itself.
 
-### File
+### File -f (-d -o -c -r)
 The script will pass in a .csv and populate the device_id (template file) as well as all variables.  Each variable in the template file should be a column of the .csv.  See [EXAMPLE CSV](sample.csv).
       
-## Examples
-
 ## Todo
 See [TODO](TODO.md) for a list of planned features/fixes.
 
