@@ -19,7 +19,7 @@ Configuration Generator
 ## [TEMPLATE](a1.1.tmpl)
 This file is the configuration.
 
-      e.g. (a.1.1.tmpl)
+      e.g. a1.1.tmpl
   
 Each template has a standard header.  The header
 maintains the file name, description, file last updated,
