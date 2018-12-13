@@ -7,13 +7,13 @@ Configuration Generator
     
     USAGE: config_maker {-i | -f <csv_file> | -d <directory> | -t <config_template> | -h}
 
-	-i			        interactive mode - prompted interface
-		-t <config_template>	template mode - import template with assigned variables
-		-f <csv_file>		file mode - import data from .csv file
-		-d <directory>		   file mode - directory to write configuration files
-		   -o <file>		   file mode - send all configuration to specified output file
-		   -c			   file mode - concatenate output to existing file
-		   -r <template_file>	   file mode - override template file from csv with specified template filen
+	-i			interactive mode - prompted interface
+	-t <config_template>	template mode - import template with assigned variables
+	-f <csv_file>		file mode - import data from .csv file
+	    -d <directory>	   file mode - directory to write configuration files
+	    -o <file>		   file mode - send all configuration to specified output file
+	    -c			   file mode - concatenate output to existing file
+	    -r <template_file>	   file mode - override template file from csv with specified template filen
 	-h	help
 
 ## [TEMPLATE](a1.1.tmpl)
