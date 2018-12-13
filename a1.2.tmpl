@@ -1,0 +1,39 @@
+# FILE:a1.2.cfg
+# DESCRIPTION: 10/100/1000 Port Configuration for Cisco IOS Switch 4006
+# LAST UPDATED: 05/27/03
+# UPDATED BY: Ed Ruszkiewicz
+
+ 
+# RELEASE NOTES:
+#	v1.1 Scrubbed template		 	- Ed 05/27/03
+#	v1.0 First template	 		- Ed 04/01/03
+
+VARIABLES
+
+$device_id		= 	a1.1
+$hostname		=	swt01
+$int_slot		=	1
+$first_int_port		=	1
+$last_int_port		=	24
+$int_vlan		=	100
+$int_description 	=	Server A
+$int_speed		=	100
+$int_duplex		=	full
+
+END_VAR
+
+
+CONFIGURATION
+!
+interface GigabitEthernet $int_slot/$int_port
+ description to $int_description
+ switchport access vlan $int_vlan
+ switchport mode access
+ speed $int_speed
+ duplex $int_duplex
+ no snmp trap link-status
+ spanning-tree portfast
+ no shutdown
+!
+END_CONF
+

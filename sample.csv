@@ -1,0 +1,4 @@
+hostname, device_id, int_description, int_duplex, int_speed, int_slot, int_port, int_vlan
+swt01, a1.1, Mail Server, full, 100, 3, 2, 100
+swt02, a1.1, Cisco Secure ACS Server, full, 100, 3, 3, 101
+swt03, a1.1, SQL Server, full, 10, 1, 8, 102
