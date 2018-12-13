@@ -5,7 +5,7 @@ Configuration Generator
 
     ./config_maker -h
     
-    USAGE: config_maker {-i | -t <config_template> |-f <csv_file> [-d <directory> | -o <file> | -c | -r <template_file>] | -h}
+    USAGE: config_maker {-i | -t <config_template> | -f <csv_file> [-d <directory> | -o <file> | -c | -r <template_file>] | -h}
 
 		-i			interactive mode - prompted interface
 		-t <config_template>	template mode - import template with assigned variables
