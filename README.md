@@ -17,14 +17,26 @@ Configuration Generator
 	-h	help
 
 ## [TEMPLATE](a1.1.tmpl)
+This file is the configuration.
+      e.g. (a.1.1.tmpl)
+  
+Each template has a standard header.  The header
+maintains the file name, description, file last updated,
+file updated by, and release notes.
+
 
 ## [CONSTANT](constant.def)
 This file represents constant values that can be referenced in a tempalte file.
 
+    constant.def
+
 ## [VARIABLE](variable.def)
+
+    variable.def
+
 This file represents declared variables that can be referenced in a tempalte file.  Each variable can be validated with a regular expression.
 
-## Sript Modes
+## Script Modes
 
 ### Interactive
 
