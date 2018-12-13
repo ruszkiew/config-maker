@@ -1,3 +1,4 @@
+
 # FILE: constant.def
 # DESCRIPTION: List of constants and values
 # LAST UPDATED: 05/27/03
@@ -8,6 +9,7 @@
 # 	v1.1 Put sample values in		- Ed 05/27/03
 # 	v1.0 First draft of document          	- Ed 04/18/03
 
+
 ntp_server1     = 	10.0.0.1
 ntp_server2     = 	10.0.0.1
 snmp_ro         = 	public
@@ -16,3 +18,4 @@ cisco_works     = 	172.16.0.2
 tacacs_server1  = 	172.16.0.1
 tacacs_server2  = 	172.17.0.1
 tacacs_key      = 	secret
+
