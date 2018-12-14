@@ -45,7 +45,7 @@ The script will run in interactive mode if no paramaters or options are passed. 
 ### Template -t
 The script will run with the values defined for the variables in the template file itself.
 
-### File -f (-d -o -c -r)
+### File -f [-d -o -c -r]
 The script will pass in a .csv and populate the device_id (template file) as well as all variables.  Each variable in the template file should be a column of the .csv.  See [EXAMPLE CSV](sample.csv).
       
 ## Todo
