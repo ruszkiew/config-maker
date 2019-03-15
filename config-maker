@@ -403,7 +403,7 @@ W1: while(<TMPL>){
 
 
 sub Usage{
-print "USAGE: config_maker {-i | -t <config_template> | -f <csv_file> [-d <directory> | -o <file> | -c | -r <template_file>] | -h}\n\n";
+print "USAGE: config-maker {-i | -t <config_template> | -f <csv_file> [-d <directory> | -o <file> | -c | -r <template_file>] | -h}\n\n";
 print "	-i			interactive mode - prompted interface\n";
 print "	-t <config_template>	template mode - import template with assigned variables\n";
 print "	-f <csv_file>		file mode - import data from .csv file\n";
